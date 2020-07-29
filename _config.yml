@@ -24,8 +24,8 @@ plainwhite:
   # generate social links in footer
   social_links:
     email: yuhangl@vt.edu
-    github:  https://github.com/PHISSTOOD
-    linkedIn: https://www.linkedin.com/in/yuhang-liu-803a3a190
+    github:  PHISSTOOD
+    linkedIn: in/yuhang-liu-803a3a190
 
     # Mastodon instances
     # mastodon:
