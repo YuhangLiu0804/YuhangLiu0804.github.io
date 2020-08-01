@@ -20,7 +20,7 @@ plainwhite:
   dark_mode: true # set to true to add dark mode toggle
   navigation:
     - title: About me
-      url: "/About me"
+      url: "https://baidu.com"
     - title: Resume
       url: "/resume"
   portfolio_image: "assets/portfolio.jpeg" # the path from the base directory of the site to the image to display (no / at the start)
