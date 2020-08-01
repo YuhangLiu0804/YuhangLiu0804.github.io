@@ -14,13 +14,13 @@ Finally, the application of Pandora is to isolate the connection between WebApp 
 
 In short, the essence of a distributed architecture is the collaborative operation of so many computers to accomplish tasks which are difficult for a stand-alone architecture to accomplish. For example, when you need to compute the sum from 1 to one billion, if you don't consider cross-border issues, you can use a for loop to complete, but it will be quite slow, may take several years to improve computing performance to shorten the calculating time significantly, but with the introduction of the distributed idea, application more machine to complete a piece of work can greatly shorten the operation time of the whole. What's more, the advantages of distributed architecture not only includes computing power, but also includes the data storage capacity, information processing ability, etc.
 
-##About Diamond##
+## About Diamond ##
 
 Diamond's reliability and ease of use are inseparable from its design architecture, just as its design principle "Make it Simple". And its characters can ensure the operation of other Alibaba applications. With the increase of the company's business and the expansion of the size of the configuration services, while fully considering the network and practical applications may appear in various situations, to ensure the ability to deal with errors.
 
 However, the biggest doubt in my mind is why we need it, I know a lot of applications in alibaba group need it, But why is it? The reason can be traced back to the emergence of Distributed Systems. In "Distributed Systems For System Architects", "Configuration Of Distributed Systems" has been mentioned, the concept and difference between static and dynamic configuration also be briefly discussed. In summary, the configuration is the behavior of dynamic adjustment ability, for the distributed system, the development of the whole line is a very time-consuming and huge process, the updates of the system don't like those single stand system which just need to restart the machine or process. To achieve sustained, painless to add new function or adjust existing function requires dynamic configuration management. Fundenmentally, dynamic configuration is configuration is not coupled to the software version, so configuration can be changed when the process running.
 
-###Why Alibaba need Diamond###
+### Why Alibaba need Diamond ###
 
 After checking a lot of materials, I found that diamond is the only one dynamic configuration center China, and it is also rare in the world. There are two reasons I found:
 
